@@ -1,13 +1,13 @@
-# Fishrs
+# Fishrs 🎣🦀🧠
 
-Fishrs answers the age old question: "How can you get a Rust developer to go outside?" 
+Fishrs answers the age old question: "How can you get a Rust developer to go outside?"
 
 Fishrs is an embedded machine learning project utilizing the [Unda](https://github.com/unda-ml/unda) crate to make intelligent inferences for a fishing robot. In other words, it's the only way I ever would go fishing. The primary goal of Fishrs is to predict the type of fish hooked on the line and determine the optimal moment to automate the reeling process. This prediction is based on a combination of key input data points, including:
 
-- **Longitude**: The geographic coordinate that specifies the east-west position.
-- **Latitude**: The geographic coordinate that specifies the north-south position.
-- **Water Depth**: The depth of water where the fishing activity is taking place. This is collected using a special .json file specifying depths of Lake Waubesa and is created as a lon-lat hashmap.
-- **Pull Strain**: The strain or tension on the fishing pole caused by the fish.
+- **Longitude**: The geographic coordinate that specifies the east-west position. 🗺️
+- **Latitude**: The geographic coordinate that specifies the north-south position. 🧭
+- **Water Depth**: The depth of water where the fishing activity is taking place. This is collected using a special .json file specifying depths of Lake Waubesa and is created as a lon-lat hashmap. 📏
+- **Pull Strain**: The strain or tension on the fishing pole caused by the fish. 🏋️
 
 By leveraging these data points, Fishrs takes away the entire point of fishing and allows you to do the exact same thing you'd be doing anyway, sit and do nothing. 
 
