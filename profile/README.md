@@ -27,8 +27,3 @@ Fishrs employs a combination of machine learning algorithms and real-time data a
 2. **Data Processing**: The collected data is processed and fed into the Unda machine learning model.
 3. **Inference Making**: The model analyzes the data to predict the type of fish and the optimal time to automate the reeling process.
 4. **Action Execution**: Based on the predictions, the robot initiates the appropriate actions, such as starting the reeling process.
-
-## Future Enhancements
-
-- **Expanded Data Inputs**: Incorporating additional data points such as water temperature, time of day, and weather conditions to improve prediction accuracy.
-- **Enhanced Model**: Currently the model is planned to just be a simple Dense neural network. I believe that we could potentially use a Transformer network instead to work with series of previous fishing data.
